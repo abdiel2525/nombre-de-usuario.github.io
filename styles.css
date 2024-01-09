@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #1f073d;
+    margin: 0;
+    padding: 0;
+}
+
+
+header, footer {
+    background-color:navajowhite;
+    color:brown;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px; 
+}
+
+div p{
+    display:none;
+}
+
+
+
+/* Estilos para las secciones */
+.crystals, .about-me, .contact {
+    margin-bottom: 40px;
+}
+
+/* Estilos para las imágenes */
+.crystal img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    filter: brightness(80%);
+    border: 2px;
+    box-shadow: 3px 3px 5px rgba(0, 0 , 0 , 0.3);
+    cursor: pointer;
+}
+
+    
