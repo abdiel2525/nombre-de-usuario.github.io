@@ -1,0 +1,84 @@
+body {
+    font-family: 'Cambria', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f5f5f5; /* Fondo del body */
+    color: #333; /* Color del texto principal */
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:cyan; /* Fondo del encabezado */
+    padding: 20px;
+    text-align: left;
+    background-image: url(imagen12.jpg);
+    background-size: cover;
+    color: black;
+    
+}
+
+h1 {
+    color: #4d4d4d; /* Color del título principal */
+}
+
+img {
+    border-radius: 50%; /* Bordes redondeados para las imágenes */
+}
+
+main {
+    padding: 20px;
+}
+
+.blog-posts {
+    background-color: #fff; /* Fondo de la sección de entradas */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #6a6a6a; /* Color de los subtítulos */
+    
+}
+
+p {
+    line-height: 1.6;
+}
+
+.about-me, .contact {
+    background-color: #fff; /* Fondo de las secciones "Sobre Mí" y "Contacto" */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: cyan; /* Fondo del pie de página */
+    padding: 10px;
+    text-align: center;
+    background-image:url(imagen12.jpg);
+    background-size:cover;
+}
+
+a {
+    color:black; /* Color de los enlaces */
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+a:hover {
+    color: #5f4b8b; /* Color al pasar el mouse sobre los enlaces */
+}
+
+.hidden {
+    display: none;
+}
